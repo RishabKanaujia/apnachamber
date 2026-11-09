@@ -1,0 +1,2166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#101e2b" />
+
+    <title>Adv. Chirag Mahajan | Advocate, Chandigarh</title>
+    <meta
+      name="description"
+      content="Official informational profile of Adv. Chirag Mahajan, Advocate, Chandigarh. Practice areas, courts, chamber and contact details."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      :root {
+        --navy: #101e2b;
+        --navy-2: #192d40;
+        --navy-3: #243d52;
+        --gold: #b38b45;
+        --gold-light: #d8bd82;
+        --cream: #f7f5ef;
+        --white: #fff;
+        --text: #263541;
+        --muted: #697783;
+        --line: #e7e2d8;
+        --green: #188b54;
+        --serif: "Playfair Display", Georgia, serif;
+        --sans: "DM Sans", Arial, sans-serif;
+        --max: 1160px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 90px;
+        overflow-x: clip;
+      }
+
+      body {
+        margin: 0;
+        background: var(--cream);
+        color: var(--text);
+        font: 16px/1.75 var(--sans);
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
+        overflow-x: clip;
+      }
+
+      a {
+        color: inherit;
+      }
+      img {
+        max-width: 100%;
+        display: block;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4 {
+        font-family: var(--serif);
+        color: var(--navy);
+        line-height: 1.2;
+        margin: 0;
+        overflow-wrap: break-word;
+      }
+
+      p {
+        margin: 0 0 15px;
+      }
+
+      a:focus-visible,
+      button:focus-visible,
+      summary:focus-visible {
+        outline: 2px solid var(--gold);
+        outline-offset: 3px;
+      }
+
+      .wrap {
+        width: min(var(--max), calc(100% - clamp(32px, 6vw, 64px)));
+        margin: auto;
+      }
+
+      .skip-link {
+        position: absolute;
+        left: -9999px;
+        top: 10px;
+        z-index: 9999;
+        background: white;
+        padding: 12px;
+      }
+      .skip-link:focus {
+        left: 10px;
+      }
+
+      /* Top information strip */
+      .topbar {
+        background: #0b1721;
+        color: #c2cbd2;
+        font-size: 12px;
+        letter-spacing: 0.04em;
+      }
+      .topbar .wrap {
+        min-height: 38px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 4px 12px;
+        flex-wrap: wrap;
+      }
+      .topbar a {
+        color: #e5d2a8;
+        text-decoration: none;
+      }
+
+      /* Navigation */
+      .site-nav {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background: rgba(247, 245, 239, 0.96);
+        backdrop-filter: blur(14px);
+        border-bottom: 1px solid var(--line);
+      }
+      .nav-inner {
+        min-height: 78px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 24px;
+      }
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 13px;
+        text-decoration: none;
+        min-width: 0;
+      }
+      .brand-mark {
+        width: 45px;
+        height: 45px;
+        display: grid;
+        place-items: center;
+        background: var(--navy);
+        color: var(--gold-light);
+        border: 1px solid var(--gold);
+        font: 700 18px var(--serif);
+        flex-shrink: 0;
+      }
+      .brand-name {
+        min-width: 0;
+      }
+      .brand-name strong {
+        display: block;
+        font: 600 17px var(--serif);
+        color: var(--navy);
+        line-height: 1.3;
+      }
+      .brand-name small {
+        display: block;
+        color: var(--muted);
+        font-size: 10px;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+      }
+      .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 26px;
+      }
+      .nav-links a {
+        text-decoration: none;
+        color: #40505c;
+        font-size: 13px;
+        font-weight: 600;
+        position: relative;
+        padding: 8px 0;
+      }
+      .nav-links a:not(.nav-contact)::after {
+        content: "";
+        position: absolute;
+        bottom: 2px;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: var(--gold);
+        transition: width 0.25s ease;
+      }
+      .nav-links a:hover::after {
+        width: 100%;
+      }
+      .nav-links .nav-contact {
+        background: var(--navy);
+        color: white;
+        padding: 11px 19px;
+        transition: background 0.2s ease;
+      }
+      .nav-links .nav-contact:hover {
+        background: var(--gold);
+      }
+
+      .menu-toggle {
+        display: none;
+        border: 1px solid var(--line);
+        background: transparent;
+        padding: 10px;
+        cursor: pointer;
+      }
+      .menu-toggle span {
+        display: block;
+        width: 21px;
+        height: 2px;
+        margin: 4px;
+        background: var(--navy);
+      }
+
+      /* Hero */
+      .hero {
+        position: relative;
+        overflow: hidden;
+        color: white;
+        background:
+          radial-gradient(
+            ellipse at 85% 15%,
+            rgba(194, 168, 120, 0.14),
+            transparent 40%
+          ),
+          linear-gradient(125deg, #17191c 0%, #292d32 55%, #41464c 100%);
+        padding: 92px 0 0;
+      }
+      .hero::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        opacity: 0.12;
+        background-image:
+          linear-gradient(rgba(255, 255, 255, 0.13) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(255, 255, 255, 0.13) 1px, transparent 1px);
+        background-size: 48px 48px;
+        pointer-events: none;
+      }
+      .hero-grid {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1.35fr 0.65fr;
+        align-items: center;
+        gap: 60px;
+      }
+      .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        color: var(--gold-light);
+        font-size: 11px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 24px;
+      }
+      .eyebrow::before {
+        content: "";
+        width: 28px;
+        height: 1px;
+        background: var(--gold-light);
+        flex-shrink: 0;
+      }
+      .hero h1 {
+        color: white;
+        font-size: clamp(34px, 5vw, 58px);
+        margin-bottom: 12px;
+        letter-spacing: -0.025em;
+      }
+      .hero h1 span {
+        display: block;
+        font: 500 clamp(16px, 2vw, 20px) var(--sans);
+        color: var(--gold-light);
+        margin-top: 15px;
+        letter-spacing: 0.03em;
+      }
+      .hero-description {
+        max-width: 590px;
+        color: #c2ccd4;
+        font-size: 16px;
+        margin: 24px 0 32px;
+      }
+      .hero-actions {
+        display: flex;
+        gap: 13px;
+        flex-wrap: wrap;
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        min-height: 49px;
+        padding: 12px 22px;
+        font: 600 13px var(--sans);
+        text-decoration: none;
+        border: 1px solid transparent;
+        transition: all 0.25s ease;
+        cursor: pointer;
+      }
+      .btn-primary {
+        color: #fff;
+        background: var(--gold);
+        border-color: var(--gold);
+      }
+      .btn-primary:hover {
+        background: #987331;
+        transform: translateY(-2px);
+        box-shadow: 0 8px 22px rgba(179, 139, 69, 0.2);
+      }
+      .btn-outline {
+        color: white;
+        border-color: rgba(255, 255, 255, 0.38);
+        background: transparent;
+      }
+      .btn-outline:hover {
+        border-color: var(--gold-light);
+        background: rgba(255, 255, 255, 0.07);
+        transform: translateY(-2px);
+      }
+      .btn-wa {
+        background: var(--green);
+        color: white;
+      }
+
+      .hero-seal {
+        width: 220px;
+        height: 220px;
+        border: 1px solid rgba(216, 189, 130, 0.55);
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        justify-self: center;
+        position: relative;
+        background: radial-gradient(
+          circle,
+          rgba(255, 255, 255, 0.08),
+          transparent 70%
+        );
+      }
+      .hero-seal::before {
+        content: "";
+        position: absolute;
+        inset: 13px;
+        border: 1px dashed rgba(216, 189, 130, 0.45);
+        border-radius: 50%;
+      }
+      .hero-seal strong {
+        color: var(--gold-light);
+        font: 600 64px var(--serif);
+      }
+      .hero-seal small {
+        position: absolute;
+        bottom: 39px;
+        color: #c2ccd4;
+        letter-spacing: 0.18em;
+        font-size: 9px;
+        text-transform: uppercase;
+      }
+
+      /* Hero facts */
+      .facts {
+        position: relative;
+        margin-top: 75px;
+        background: rgba(5, 13, 20, 0.45);
+        border-top: 1px solid rgba(255, 255, 255, 0.13);
+      }
+      .facts-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+      }
+      .fact {
+        padding: 23px 20px 23px 0;
+        border-right: 1px solid rgba(255, 255, 255, 0.12);
+        min-width: 0;
+      }
+      .fact:not(:first-child) {
+        padding-left: 24px;
+      }
+      .fact:last-child {
+        border: 0;
+      }
+      .fact small {
+        display: block;
+        color: var(--gold-light);
+        font-size: 10px;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        margin-bottom: 7px;
+      }
+      .fact strong {
+        color: #e8edf0;
+        font-size: 14px;
+        font-weight: 500;
+      }
+
+      /* Common sections */
+      section {
+        padding: clamp(56px, 9vw, 88px) 0;
+      }
+      section.alt {
+        background: white;
+        border-top: 1px solid var(--line);
+        border-bottom: 1px solid var(--line);
+      }
+      .section-heading {
+        max-width: 700px;
+        margin-bottom: 42px;
+      }
+      .section-label {
+        display: block;
+        color: var(--gold);
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        margin-bottom: 14px;
+      }
+      .section-heading h2 {
+        font-size: clamp(26px, 3.5vw, 38px);
+        margin-bottom: 13px;
+      }
+      .section-heading p {
+        color: var(--muted);
+      }
+
+      /* Profile */
+      .profile-grid {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        gap: 52px;
+        align-items: start;
+      }
+      .profile-photo {
+        border: 1px solid var(--line);
+        padding: 10px;
+        background: white;
+        box-shadow: 0 15px 38px rgba(16, 30, 43, 0.08);
+      }
+      .profile-photo .photo-placeholder {
+        aspect-ratio: 4 / 5;
+        display: grid;
+        place-items: center;
+        background: linear-gradient(145deg, var(--navy-2), var(--navy));
+        color: var(--gold-light);
+        font: 64px var(--serif);
+        overflow: hidden;
+      }
+      .profile-photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .profile-caption {
+        text-align: center;
+        font-size: 11px;
+        color: var(--muted);
+        padding-top: 12px;
+      }
+      .profile-content {
+        min-width: 0;
+      }
+      .profile-content h3 {
+        font-size: 25px;
+        margin-bottom: 8px;
+      }
+      .profile-role {
+        color: var(--gold);
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+      }
+      .profile-content p {
+        color: #4c5b66;
+      }
+
+      .details-table {
+        width: 100%;
+        margin-top: 27px;
+        border-collapse: collapse;
+        background: white;
+        border: 1px solid var(--line);
+        font-size: 14px;
+      }
+      .details-table th,
+      .details-table td {
+        text-align: left;
+        padding: 13px 15px;
+        border-bottom: 1px solid var(--line);
+        vertical-align: top;
+      }
+      .details-table th {
+        width: 36%;
+        background: #f5f2eb;
+        color: var(--navy);
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 0.07em;
+      }
+
+      /* Practice */
+      .practice-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        border: 1px solid var(--line);
+        gap: 1px;
+        background: var(--line);
+      }
+      .practice-card {
+        background: white;
+        padding: 30px 26px;
+        transition:
+          background 0.25s ease,
+          transform 0.25s ease;
+        position: relative;
+      }
+      .practice-card:hover {
+        background: #fcfaf5;
+        transform: translateY(-3px);
+      }
+      .practice-number {
+        position: absolute;
+        top: 22px;
+        right: 23px;
+        color: #c8c0b2;
+        font: 13px var(--serif);
+      }
+      .practice-icon {
+        color: var(--gold);
+        font-size: 25px;
+        margin-bottom: 15px;
+      }
+      .practice-card h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      .practice-card p {
+        color: var(--muted);
+        font-size: 14px;
+        margin: 0;
+      }
+
+      /* Courts */
+      .courts-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 14px;
+      }
+      .court-card {
+        background: white;
+        border: 1px solid var(--line);
+        border-left: 3px solid var(--gold);
+        padding: 20px;
+        transition:
+          transform 0.2s ease,
+          box-shadow 0.2s ease;
+      }
+      .court-card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 9px 24px rgba(16, 30, 43, 0.06);
+      }
+      .court-card h3 {
+        font: 600 15px var(--sans);
+        margin-bottom: 5px;
+      }
+      .court-card p {
+        color: var(--muted);
+        font-size: 13px;
+        margin: 0;
+      }
+
+      /* Chamber */
+      .chamber-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 55px;
+        align-items: start;
+      }
+      .chamber-grid > * {
+        min-width: 0;
+      }
+      .chamber-grid h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+      }
+      .address {
+        font-style: normal;
+        color: #4c5b66;
+        line-height: 1.9;
+        margin-bottom: 25px;
+      }
+      .hours {
+        list-style: none;
+        margin: 0 0 25px;
+        padding: 0;
+        border-top: 1px solid var(--line);
+      }
+      .hours li {
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+        padding: 12px 0;
+        border-bottom: 1px solid var(--line);
+        font-size: 13px;
+      }
+      .hours li span:first-child {
+        color: var(--muted);
+      }
+      .hours li span:last-child {
+        color: var(--navy);
+        font-weight: 600;
+        text-align: right;
+      }
+      .chamber-note {
+        font-size: 11px;
+        color: var(--muted);
+        margin-top: 15px;
+      }
+
+      .map-card {
+        border: 1px solid var(--line);
+        background: white;
+      }
+      .map-placeholder {
+        background: #f3f2ec;
+        line-height: 0;
+      }
+      .map-placeholder iframe {
+        display: block;
+        width: 100%;
+        height: clamp(260px, 40vw, 340px);
+        border: 0;
+      }
+      .map-footer {
+        padding: 15px 18px;
+        border-top: 1px solid var(--line);
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        flex-wrap: wrap;
+        font-size: 13px;
+      }
+      .map-footer a {
+        color: #946e2e;
+        font-weight: 700;
+        text-decoration: none;
+      }
+
+      /* Contact */
+     .contact-section {
+    background:
+        radial-gradient(
+            ellipse at 85% 15%,
+            rgba(194, 168, 120, 0.14),
+            transparent 40%
+        ),
+        linear-gradient(
+            125deg,
+            #17191C 0%,
+            #292D32 55%,
+            #41464C 100%
+        );
+    color: #F5F1E9;
+}
+      .contact-section .section-heading h2 {
+        color: white;
+      }
+      .contact-section .section-heading p {
+        color: #b7c3cc;
+      }
+      .contact-section .section-label {
+        color: var(--gold-light);
+      }
+      .contact-grid {
+        display: grid;
+        grid-template-columns: 0.85fr 1.15fr;
+        gap: 55px;
+        align-items: start;
+      }
+      .contact-grid > * {
+        min-width: 0;
+      }
+      .contact-item {
+        display: flex;
+        gap: 15px;
+        padding: 17px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.13);
+      }
+      .contact-item:first-child {
+        padding-top: 0;
+      }
+      .contact-item > div {
+        min-width: 0;
+      }
+      .contact-icon {
+        width: 38px;
+        height: 38px;
+        display: grid;
+        place-items: center;
+        flex-shrink: 0;
+        border: 1px solid rgba(216, 189, 130, 0.5);
+        color: var(--gold-light);
+        font-size: 15px;
+      }
+      .contact-item small {
+        display: block;
+        color: #9eafbb;
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
+        margin-bottom: 4px;
+      }
+      .contact-item a,
+      .contact-item span:not(.contact-icon) {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        overflow-wrap: anywhere;
+      }
+      .contact-item a:hover {
+        color: var(--gold-light);
+      }
+      .contact-note {
+        font-size: 12px;
+        color: #aebdc8;
+        margin-top: 22px;
+      }
+
+      .enquiry-form {
+        padding: 32px;
+        background: white;
+        color: var(--text);
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+      }
+      .enquiry-form h3 {
+        font-size: 22px;
+        margin-bottom: 5px;
+      }
+      .form-subtitle {
+        color: var(--muted);
+        font-size: 13px;
+        margin-bottom: 18px;
+      }
+      .form-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 14px;
+      }
+      .form-row > div {
+        min-width: 0;
+      }
+      .enquiry-form label {
+        display: block;
+        color: #566571;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        margin: 13px 0 6px;
+      }
+      .enquiry-form input,
+      .enquiry-form select,
+      .enquiry-form textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #dce0e2;
+        background: white;
+        color: var(--text);
+        font: 14px var(--sans);
+        border-radius: 0;
+      }
+      .enquiry-form input:focus,
+      .enquiry-form select:focus,
+      .enquiry-form textarea:focus {
+        outline: 2px solid rgba(179, 139, 69, 0.3);
+        border-color: var(--gold);
+      }
+      .enquiry-form textarea {
+        min-height: 105px;
+        resize: vertical;
+      }
+      .submit-btn {
+        width: 100%;
+        margin-top: 19px;
+        border: 0;
+        background: var(--navy);
+        color: white;
+        padding: 15px;
+        font: 600 13px var(--sans);
+        cursor: pointer;
+        transition: background 0.2s ease;
+      }
+      .submit-btn:hover {
+        background: var(--gold);
+      }
+      .form-note {
+        color: #77838c;
+        font-size: 11px;
+        margin: 14px 0 0;
+        line-height: 1.6;
+      }
+
+      /* FAQ */
+      .faq-list {
+        max-width: 850px;
+      }
+      .faq-item {
+        border-bottom: 1px solid var(--line);
+        padding: 19px 0;
+      }
+      .faq-item summary {
+        cursor: pointer;
+        color: var(--navy);
+        font-weight: 600;
+        font-size: 15px;
+      }
+      .faq-item p {
+        margin: 13px 0 0;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      /* Footer */
+      footer {
+            background:
+        radial-gradient(
+            ellipse at 85% 15%,
+            rgba(194, 168, 120, 0.14),
+            transparent 40%
+        ),
+        linear-gradient(
+            125deg,
+            #17191C 0%,
+            #292D32 55%,
+            #41464C 100%
+        );
+    color: #F5F1E9;
+
+        padding: 55px 0 22px;
+      }
+      .footer-grid {
+        display: grid;
+        grid-template-columns: 1.4fr 1fr 1fr;
+        gap: 45px;
+        padding-bottom: 38px;
+      }
+      .footer-brand {
+        color: white;
+        font: 600 19px var(--serif);
+        margin-bottom: 12px;
+      }
+      footer h4 {
+        color: var(--gold-light);
+        font: 600 12px var(--sans);
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+      }
+      footer p,
+      footer a {
+        color: #aebbc4;
+        font-size: 13px;
+        text-decoration: none;
+        line-height: 2;
+        overflow-wrap: anywhere;
+      }
+      footer a:hover {
+        color: var(--gold-light);
+      }
+      .footer-bottom {
+        border-top: 1px solid rgba(255, 255, 255, 0.12);
+        padding-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+        flex-wrap: wrap;
+        font-size: 11px;
+        color: #91a0aa;
+      }
+
+      /* Compact disclaimer */
+      .disclaimer-toast {
+        position: relative;
+        z-index: 2;
+        width: min(100% - clamp(32px, 6vw, 64px), var(--max));
+        margin: 0 auto 28px;
+        padding: 13px 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 15px;
+        background: #182b3b;
+        border: 1px solid rgba(216, 189, 130, 0.38);
+        color: #dce4e9;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.16);
+      }
+      .disclaimer-copy {
+        font-size: 11px;
+        line-height: 1.6;
+      }
+      .disclaimer-copy strong {
+        color: var(--gold-light);
+        display: block;
+        font-size: 11px;
+        letter-spacing: 0.04em;
+        margin-bottom: 2px;
+      }
+      .disclaimer-actions {
+        display: flex;
+        align-items: center;
+        gap: 9px;
+        flex-shrink: 0;
+      }
+      .agree-btn {
+        border: 1px solid var(--gold);
+        background: var(--gold);
+        color: white;
+        padding: 8px 13px;
+        font: 600 10px var(--sans);
+        cursor: pointer;
+        white-space: nowrap;
+      }
+      .agree-btn:hover {
+        background: #987331;
+      }
+      .close-disclaimer {
+        border: 0;
+        background: transparent;
+        color: #dce4e9;
+        font-size: 22px;
+        cursor: pointer;
+        padding: 2px 5px;
+        line-height: 1;
+      }
+      .disclaimer-details {
+        display: none;
+        width: min(100% - clamp(32px, 6vw, 64px), var(--max));
+        margin: -14px auto 28px;
+        padding: 22px;
+        background: #122333;
+        border: 1px solid rgba(216, 189, 130, 0.3);
+        color: #d1dbe2;
+        font-size: 12px;
+        line-height: 1.8;
+      }
+      .disclaimer-details.open {
+        display: block;
+      }
+      .disclaimer-details h3 {
+        color: var(--gold-light);
+        font: 600 15px var(--serif);
+        margin-bottom: 10px;
+      }
+      .disclaimer-details p {
+        margin-bottom: 9px;
+      }
+
+      /* Mobile action buttons */
+      .mobile-actions {
+        display: none;
+      }
+
+      /* Reveal animation */
+      .reveal {
+        opacity: 0;
+        transform: translateY(22px);
+        transition:
+          opacity 0.65s ease,
+          transform 0.65s ease;
+      }
+      .reveal.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+          scroll-behavior: auto !important;
+          animation-duration: 0.01ms !important;
+          transition-duration: 0.01ms !important;
+        }
+        .reveal {
+          opacity: 1;
+          transform: none;
+        }
+      }
+
+      /* Touch devices: no sticky hover jumps */
+      @media (hover: none) {
+        .practice-card:hover,
+        .court-card:hover,
+        .btn:hover {
+          transform: none;
+        }
+      }
+
+      /* ---------- Tablet landscape / small laptop ---------- */
+      @media (max-width: 1024px) {
+        .courts-grid {
+          gap: 12px;
+        }
+        .practice-card {
+          padding: 26px 22px;
+        }
+      }
+
+      /* ---------- Tablet ---------- */
+      @media (max-width: 950px) {
+        .menu-toggle {
+          display: block;
+        }
+        .nav-links {
+          display: none;
+          position: absolute;
+          top: 100%;
+          left: 0;
+          right: 0;
+          max-height: calc(100vh - 90px);
+          overflow-y: auto;
+          padding: 12px 24px 22px;
+          background: var(--cream);
+          border-bottom: 1px solid var(--line);
+          box-shadow: 0 16px 28px rgba(16, 30, 43, 0.1);
+          flex-direction: column;
+          align-items: stretch;
+          gap: 0;
+        }
+        .nav-links.open {
+          display: flex;
+        }
+        .nav-links a {
+          padding: 13px 0;
+          border-bottom: 1px solid var(--line);
+        }
+        .nav-links a::after {
+          display: none;
+        }
+        .nav-links .nav-contact {
+          margin-top: 12px;
+          text-align: center;
+          padding: 12px;
+        }
+
+        .hero-grid {
+          grid-template-columns: 1fr 0.55fr;
+          gap: 25px;
+        }
+        .hero-seal {
+          width: 175px;
+          height: 175px;
+        }
+        .hero-seal strong {
+          font-size: 50px;
+        }
+        .practice-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .chamber-grid,
+        .contact-grid {
+          grid-template-columns: 1fr;
+          gap: 36px;
+        }
+      }
+
+      @media (max-width: 860px) {
+        .facts-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .fact {
+          padding: 18px 14px;
+        }
+        .fact:nth-child(odd) {
+          padding-left: 0;
+        }
+        .fact:nth-child(even) {
+          border-right: 0;
+        }
+        .fact:nth-child(n + 3) {
+          border-top: 1px solid rgba(255, 255, 255, 0.12);
+        }
+      }
+
+      @media (min-width: 721px) and (max-width: 900px) {
+        .profile-grid {
+          grid-template-columns: 240px 1fr;
+          gap: 32px;
+        }
+        .footer-grid {
+          grid-template-columns: 1fr 1fr;
+        }
+        .footer-grid > div:first-child {
+          grid-column: 1 / -1;
+        }
+      }
+
+      /* ---------- Mobile ---------- */
+      @media (max-width: 720px) {
+        .topbar .wrap {
+          justify-content: center;
+          text-align: center;
+          min-height: 0;
+          padding: 8px 0;
+        }
+
+        .hero {
+          padding-top: 52px;
+        }
+        .hero-grid {
+          grid-template-columns: 1fr;
+        }
+        .hero-seal {
+          display: none;
+        }
+        .hero-description {
+          font-size: 15px;
+          margin: 20px 0 8px;
+        }
+        .facts {
+          margin-top: 48px;
+        }
+
+        .section-heading {
+          margin-bottom: 30px;
+        }
+
+        .profile-grid {
+          grid-template-columns: 1fr;
+          gap: 30px;
+        }
+        .profile-photo {
+          max-width: 300px;
+          width: 100%;
+          margin-inline: auto;
+        }
+        .practice-grid {
+          grid-template-columns: 1fr;
+        }
+        .courts-grid {
+          grid-template-columns: 1fr;
+        }
+        .footer-grid {
+          grid-template-columns: 1fr;
+          gap: 25px;
+        }
+        .hero-actions .btn {
+          flex: 1 1 150px;
+        }
+
+        .enquiry-form input,
+        .enquiry-form select,
+        .enquiry-form textarea {
+          font-size: 16px;
+          min-height: 46px;
+        }
+        .enquiry-form textarea {
+          min-height: 120px;
+        }
+
+        .disclaimer-toast {
+          flex-direction: column;
+          align-items: stretch;
+          gap: 10px;
+          padding: 12px;
+        }
+        .disclaimer-copy {
+          font-size: 10px;
+        }
+        .disclaimer-actions {
+          justify-content: space-between;
+        }
+        .agree-btn {
+          padding: 10px 14px;
+          font-size: 10px;
+        }
+
+        .mobile-actions {
+          display: grid;
+          position: fixed;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          z-index: 90;
+          grid-template-columns: 1fr 1fr;
+          box-shadow: 0 -5px 22px rgba(0, 0, 0, 0.12);
+        }
+        .mobile-actions a {
+          text-align: center;
+          text-decoration: none;
+          color: white;
+          padding: 14px 8px calc(14px + env(safe-area-inset-bottom, 0px));
+          font-size: 13px;
+          font-weight: 700;
+        }
+        .mobile-call {
+          background: var(--navy);
+        }
+        .mobile-wa {
+          background: var(--green);
+        }
+        footer {
+          padding-bottom: calc(80px + env(safe-area-inset-bottom, 0px));
+        }
+      }
+
+      /* ---------- Small phones ---------- */
+      @media (max-width: 520px) {
+        .details-table,
+        .details-table tbody,
+        .details-table tr,
+        .details-table th,
+        .details-table td {
+          display: block;
+          width: 100%;
+        }
+        .details-table th {
+          padding: 10px 14px 6px;
+          border-bottom: 0;
+        }
+        .details-table td {
+          padding: 8px 14px 12px;
+        }
+        .practice-card {
+          padding: 24px 20px;
+        }
+        .contact-item {
+          gap: 12px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .form-row {
+          grid-template-columns: 1fr;
+          gap: 0;
+        }
+        .enquiry-form {
+          padding: 23px 19px;
+        }
+        .hours li {
+          font-size: 12px;
+        }
+        .footer-bottom {
+          flex-direction: column;
+        }
+      }
+
+      @media (max-width: 420px) {
+        .nav-inner {
+          min-height: 68px;
+          gap: 12px;
+        }
+        .brand {
+          gap: 10px;
+        }
+        .brand-mark {
+          width: 40px;
+          height: 40px;
+          font-size: 16px;
+        }
+        .brand-name strong {
+          font-size: 15px;
+        }
+        .brand-name small {
+          font-size: 9px;
+          letter-spacing: 0.1em;
+        }
+        .hero h1 {
+          font-size: 32px;
+        }
+        .eyebrow {
+          letter-spacing: 0.12em;
+          font-size: 10px;
+        }
+        .fact strong {
+          font-size: 13px;
+        }
+      }
+    </style>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Attorney",
+        "name": "Adv. Chirag Mahajan",
+        "description": "Advocate practising at Chandigarh.",
+        "telephone": "+91-98780-00263",
+        "email": "contact@example.com",
+        "areaServed": "Chandigarh",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "3194, Sector 37-D",
+          "addressLocality": "Chandigarh",
+          "addressRegion": "Chandigarh",
+          "postalCode": "160036",
+          "addressCountry": "IN"
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="topbar">
+      <div class="wrap">
+        <span>Advocate · Chandigarh</span>
+        <span
+          >For office enquiries:
+          <a href="tel:+919878000263">+91 98780 00263</a></span
+        >
+      </div>
+    </div>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      <div class="wrap nav-inner">
+        <a href="#home" class="brand">
+          <span class="brand-mark">CM</span>
+          <span class="brand-name">
+            <strong>Adv. Chirag Mahajan</strong>
+            <small>Advocate · Chandigarh</small>
+          </span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+          aria-controls="navLinks"
+        >
+          <span></span><span></span><span></span>
+        </button>
+
+        <div class="nav-links" id="navLinks">
+          <a href="#profile">Profile</a>
+          <a href="#practice">Practice Areas</a>
+          <a href="#courts">Courts</a>
+          <a href="#chamber">Chamber</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact" class="nav-contact">Contact Office</a>
+        </div>
+      </div>
+    </nav>
+
+    <main id="main">
+      <!-- Hero -->
+      <header class="hero" id="home">
+        <div class="wrap">
+          <div class="hero-grid">
+            <div class="reveal">
+              <div class="eyebrow">
+                Advocate · Bar Council of Punjab &amp; Haryana
+              </div>
+
+              <h1>
+                Adv. Chirag Mahajan
+                <span
+                  >Advocate · Criminal, Family, Consumer &amp; Corporate
+                  Matters</span
+                >
+              </h1>
+
+              <p class="hero-description">
+                Professional legal practice at Chandigarh. This website provides
+                factual information about professional particulars, areas of
+                practice, courts and office contact details.
+              </p>
+
+              <!-- <div class="hero-actions">
+            <a class="btn btn-primary" href="tel:+919878000263">
+              <span aria-hidden="true">☎</span> Call Office
+            </a>
+            <a class="btn btn-outline" href="https://wa.me/919878000263" target="_blank" rel="noopener noreferrer">
+              <span aria-hidden="true">◉</span> WhatsApp
+            </a>
+          </div> -->
+            </div>
+
+            <div class="hero-seal reveal" aria-label="Advocate monogram">
+              <strong>CM</strong>
+              <small>Advocate · Chandigarh</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="facts">
+          <div class="wrap facts-grid">
+            <div class="fact">
+              <small>Enrolment</small>
+              <strong>PH/3705/2022</strong>
+            </div>
+            <div class="fact">
+              <small>Bar Council</small>
+              <strong>Punjab &amp; Haryana</strong>
+            </div>
+            <div class="fact">
+              <small>Location</small>
+              <strong>Chandigarh</strong>
+            </div>
+            <div class="fact">
+              <small>Languages</small>
+              <strong>English · Hindi · Punjabi</strong>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Profile -->
+      <section id="profile">
+        <div class="wrap">
+          <div class="section-heading reveal">
+            <span class="section-label">Professional Profile</span>
+            <h2>Profile &amp; particulars</h2>
+            <p>
+              Professional information and permitted particulars of the
+              advocate.
+            </p>
+          </div>
+
+          <div class="profile-grid">
+            <div class="profile-photo reveal">
+              <div class="photo-placeholder">
+                <!--
+                  PHOTO: yahan apna ORIGINAL src wapas paste karo, jaise:
+                  src="data:image/jpeg;base64,/9j/4AAQ....."
+                  Ya photo ki file site folder me rakh ke src="photo.jpg" use karo.
+                -->
+                <img
+                  src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4QAqRXhpZgAASUkqAAgAAAABADEBAgAHAAAAGgAAAAAAAABQaWNhc2EAAP/bAIQAAwICCAoKCAsKCAgICggKCAgICggICggICAgICAgICAgICAgKCAgICAgICAgICggICAgKCgoICAsNCggNCAgKCAEDBAQGBQYKBgYKDQ0KDg8NDQ0NDQ0NDQ0NDQ8NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDw0NDQ0NDQ0NDQ0N/8AAEQgAnwB8AwERAAIRAQMRAf/EAB4AAAEEAwEBAQAAAAAAAAAAAAAEBQcJAwYIAgEK/8QARhAAAgEDAQMHBwkGBQQDAAAAAQIDAAQRIQUGEgcIEyIxQVEJFDRhcXOzFiMyVIGRk6HSQmKxwdHwJDNTcuFDgqKjFRdS/8QAGwEBAQADAQEBAAAAAAAAAAAAAAECBQYDBAf/xAAxEQACAQIEBAQFAwUAAAAAAAAAAQIDEQQSITEFQVFhIjJxoRORwdHwUoHhFBUjorL/2gAMAwEAAhEDEQA/ALKN1N1LXze2/wANb/5MP/RT/TX92gHX5JWn1W3/AAY/00AfJK0+q2/4Mf6aAPklafVbf8GP9NAHyStPqtv+DH+mgD5JWn1W3/Bj/TQB8krT6rb/AIMf6aAPklafVbf8GP8ATQB8krT6rb/gx/poA+SVp9Vt/wAGP9NAHyStPqtv+DH+mgD5JWn1W3/Bj/TQB8krT6rb/gx/poA+SVp9Vt/wY/00AfJK0+q2/wCDH+mgIX5ad2rYXEeLeAfMp2Qp/qS/u0BNG6Xo9r7mH4a0A7UAUAUAUB8JoCB+U7nwbtbOcxS7QWeZSVaGyU3TqygEq7x/MxNr9GWVD26aGsHNcjLKyNT5U/dhRmRdpxH9kGzEhb2dDLIB/wBxA7NaZuwymnzeV62P0mE2TtYxAkdLL5rEWGcBkiM7MeIa8LFCNM47l+wsdIcjHO22DtjC2l6onPbbXI83ugRjPDG5xMBn6cDyp+9VUkyWJjrIgUAUAUAUBCXLb6RH7lPiS0BK+6Xo9r7mH4a0A7UAUAUBr+/u/lpYW091dzLb29uhkldsnAHYqqoLSSOcKkaBndiFUEkCo2krsq1Kkec95Q3am1elt7TjsLJ8r0MbjzmaLOjXs6ZCBgOtbwyCM5ZGa4XU42b3Lscm220uDOoBOFOcBQD3DUHt7hqfuzSHu82kQdGGWxknB9mpxj1DBx/FYqsNLXuTqM93jp9476IDxsXeCSNwQzJwsrIQ3AY2ByGRlwykEAhlbIODUaBbBzA+eVJtEDZ20Julu0QtaXDYDXUcYHHDMRo1zGuXD4BljVyRxRs0lRDtusiBQBQBQEJctvpEfuU+JLQEr7pej2vuYfhrQDtQBQHl3ABJIAGpJ0AA7ST4UBSLz6+dlLtq/uEguGbZto4hsUQ/My8Okt+wGOOSZuJYmJYLBwcHAZZS/ju7nptoc37L2icBezvbx9Q178an247sV6oxEF7CrMSQTg6AaD2Dw9p9uO2lxYV7P6/VjjYP34TKkd5JyCcevtz215TqRirs96dGU3aKHpeSjarDiFk/C2CGA7ddNAW09oH218n9bRWmY+3+3V3rl9zXdubAuIG+fheM9uXzgY7e0AY/vNfTTrwqeVnyVcNUpeZG2cj3KPNa3dpPA5jmgmjkjYA44kOVJA0ZSAUZM4ZHZdMjPs0fKfoQ3H3j86tbS44QvnMEE5UHiCmWNXKg6ZALYBwMjuFZEHygCgCgIS5bfSI/cp8SWgJX3S9Htfcw/DWgHagCgIy5zu8strsPb1xF/mW+zdoyx+p0tZSrHGDhDhjgjQdoqPYH55I2VHCgaaL7BgY7+zPCdT2eNY8jI2DdTYrM+CCdcHHqH/J++vCpUyK59dCj8SViWIuRppFiCJgsGkOmTwqh8ewdgz4nHhnUrGpN6m+fD3KKVhXyWbj8My8QwxcoQdAAvEJNDqMx4lQ9+DrjNZ16uZdvz66MYaj8OXfX8+WqLBLPdmJY0HABhR3Vy83qdXGOhFnLjyPW17azo8YDGN+B1A41YKcEZB1+yvqwlaVOaaPhxuHjVptMrh3H3Vk6eCJRxSTTJBGuTrI8nQp2ZIBkIXTXrHwOe5TufnMk4to/RtuNuytpa2lspBFrBBbggYBEMSx5A7s8Ocd2ayMR8oAoAoCEuW30iP3KfEloCV90vR7X3MPw1oB2oAoBFtvYsU8U0M0ayw3EckM0bjiSSKVCkkbqdCroxUg9oJqNX0YKO+efzPH3f2hbxQym4ttoJK+z3k6sqdC8aS21wQTxm3E8AWfC9Iki5UNGxbF6K5ktdDcN5uSfZuzxZgdNJcqkbTJEC/SdXhd+E6KWYeOoB0rS1nKqsvub+halLNa/bqbPuTy6bLSZY2trmJ36gMkYCgEjI65XGdCep3DQ4FayWBnFXUkzcU+JRk7OLX7Es3HJlaXfBNb4Ro2R17tVxo3aCjrkHv1JBBOvzxm4aM+7LGeqM/KJzldm2TiKTpJJMDqxKCe3hzqV7SOylPCSq6rYwrY+NFWauzXdjc4m0uZEQwXMCynhV5oiqcROFVjjQNnAb6Oe/Wvqjgcj3T9GfBPiLmvK0u6I25uvN/WbfG0t3HzViZtruOEHiFq8Ulumv0QLu4tnLa6IV/ayOkw7zQRyuJjlm7epcLX1HyBQBQBQEJctvpEfuU+JLQEr7pej2vuYfhrQDtQBQBQFc3lG96U2l5rb28LGXZO0VDSZB40mR7aZOHCsEFwYDxKzg9GSQCoxq1jacqrpeqv35o3M+GVadCGI5PW3bkxJyq7mXkis1qIw/ZxOCcADA0UE9vhqBnHdXOzqJzea9jpqNFqCa3Ili5D9pTTSs87SRjpBaJxfOhiLcxm6ZYgvApF0HK8RINvgLiQHYfEwzp2infvY+eNDFqreco5e1/Ynvkq3CuY7K7WVwJlysZUkqvUGNSFJHFntUHHcK0Mkm20dBFWSViA9q8h9/ITKZeCVZEZG4yYmQcXSCX5piJCeEoQGTGQe0FdzhZ0Yrx3saTGUcRN/4rL1v9DZuTbk52ksg6Xo5olCcT9bPShV6QopDBU6Tj4QJDhOHIDcRPjUq014qd0z0hQqtZarTXY6C5uNrbWe3Nr3VzLwvex7NsbJejOEVoxJOzS44Qs8wgjVckhoCSACDW8oYmnCMYt6s5ivgq1SU5xWkdztetqaYKAKAKAhLlt9Ij9ynxJaAlfdL0e19zD8NaAdqAKAKAry5ZNjdHd3RfAaPaMDMe4x+eQyNnxyrqcfbXExg4Ytp/ql73t9D9KrVFVwEZR2UIe2/wBSZ92VUjsHrr55LxO57UvImhTvWY4omIKITpk6AZ0yfZSS0sesHzGXc+9tjBIRPHJxZJYMCD3aEHX7KiSSK27ow7oQxlnQOkinrDhOcYOCD94P21jtsZ301H7akaqpAAFWxi0R1Y7DSfaNpggmK4sQR4HpHkyR/tA18APGvscW6lJd1/0a+lUUKOIl2kv9TuSu0PzgKAKAKAhLlt9Ij9ynxJaAlfdL0e19zD8NaAdqAKAKA5D56vJfcLb7QvYE6SMQG4nxwcUTWyAmQhyCVCpxgx8TBgdOytHXwkv6iNWO1032t9Do8Pj4LCTozdpJSUejvy7O/U0rkp5S0lQNnJKgkeBI760eJjkmdLgZqdNIj/fXl9F3JNbxKvRp/mTzSdFEMNjqN2sQ2MdGGOSMeNZfAeVSk99lzPSOKzTdOmr23fIa92LBejmBvLQ9J9Eslw54M4J4yCWcA/taZ17BVVPsz6vhVHrdCrdTfn/44cbQiZS3BLJbXBnEYJwpKv10XsOOFcfZU+Dmdk9e588686S8cdOqJli5RoLiBZY3BRhxA+zQg+sEEH2V8+Vxlle57OpGVPPF6CXmkbHmvr68u+jfzaG9PRylSEc21rFCFRjhZCJePIXPD1s4J16Knh26tOVtErt99dDj54uMaFWN9ZSsl20u+2x3BW8ObCgCgCgIS5bfSI/cp8SWgJX3S9Htfcw/DWgHagCgCgEO3NjRzxTQyLxRzxyQyKexo5UKONdNVYigKcuTPa1xsraVxsu7Ymawle0lJGBNGgDQ3AGWwLq3aK4C8TcKyqCcowrQ4+heOZHScLxNpKLJtuuTazaXiMCMyu00DkZZOkOSEb9ldccI0x3Vo1WmuZ19OnGLvHfcfYNptF1PMYLga8LMF4l/8D9mSK+mnXlbkbCeMlmV0vnuM19uBbysk0kIR1YOvRkx6g5AboivGucdV8roNK8HXlseWJmq+rSS6I0rlO3zh2ZZuFPCgMrv6ukLOxUD94nAA7dNa+jDQdapdnPY2osPRtH8uWD81Xk6k2dsXZdtKoScQCe7UZwLu7Zrq6GuvVnmddfCuvSsrI4Nu+pLFUgUAUAUBCXLb6RH7lPiS0BK+6Xo9r7mH4a0A7UAUAUAUBUf5Rvddo9uzX1sQXCWwm4NePoohGRpp0icJQ9/7JwVAGvnOOd057M2NKEsirU91e/puaLsHnfqI24kUsFHR5OitnDK3s7q1kuG67m6jxeyMo53EfBI3CnEXAUlQx4CFB0PcOsR4YHae31jgLaCXFr6iKw53bBeGQK2OLIH7IOqBcAZ9encfGo+HJvQxXF2lqItztqS7V2hbTSjhtYZoXRHPVldJAekfOAI4jqpOhK8WgAz6JRw/gj5nu+iPlnKeKvUl5UnZdX19C74Gt2aA+0AUAUAUBCXLb6RH7lPiS0BK+6Xo9r7mH4a0A7UAUAm2jtOOJS8kiRIurPI4RFHiWYhQPaaA5o5Z/KHbuWMFz5rtC22peoj+b2tm7To8w6qie6hSS3t41brOzvxcKsEWR+FGEuc98ivJlJtvdfZ90vz9/DJtXzrIAe9aTal5PcHAwvTtLI06DQMZJF0LJw67HYd1Epw8y9/5Nhw/FKjNwqeV+z+3X+Dljerm/xuzFcockHA4XUqSpV1IBypBVlYBgRg4I01FLiMoqzOgq8LhU8S0v0NFn5tU4OjMwzn6JB/LI/OthHiMGtjXPhM09xz3V5t7BwZhkA/RP0T7e9uzsJAPeDXhV4jdWjofTR4TZ3nr25Ha/NK5F3nu4ZBD/hLOQPNIwwkkyax28fc7B+B5MZVI1IbBkQN4YOnKtNVH5V7vp9/kZ8SrxoUnTXma26Lr8tiR+Y5zybC4tzs67uIbWexkngsGnmwl5s6CZ4rTE0x61zDCqROjOzyKqSgvxyiPp7HJp8jtGGYMAVIYHUEHII8QRoRUMj3QBQBQEJctvpEfuU+JLQEp7szqtrblmCqsEJJYgAARLqSdAPWaAhPlL5/m6mzyyybUjupULIYdnK184ddCjvbhreFgdMTzRa58DgS5xryw+V7vZQ8eydnR2SkYFxtBluLkeJS1hPmyNjBVnuLhfGM1bEbOFeUzlV2ntSQybRv7u/bPEPOZS0SHGPmbZeG2g00xBDGNScEsScrEGWxmEaHAxnQDsz/AH/QUBa55IDehZNkX8BxxWe0JDjOSI7qCGZWx3BpvOAMadU+ujMLeI6C5eebBDf8dxbFLa9xksRiC6IGAtwFGVcgBRcIC4AHEJQqqNPi8BGreUNJez9fv6b7G9wXEZ0LQlrDpzXp9tn23OL94bmazeSC6geCdCFMTjLsWPChi4ciZZDojxF1Y6Ak5FctOnKnLLJa/lrdb9jsqVaFSOeDuvzfp+5LfIrzTr2+Kz7QWSwtThktx1L25Gc/Od9pER3H/EHJ0tyAzbbDcNlPxVdI9Ob+y9/SxpcXxaMPDQ1f6uS9Or9vU6M5ct5IdjbD2nNbxRxLs6xuXtok6iCRImEKjt1aUrliCSSSeInXpoxUUoxVkji6k5VJ5pO7ZQhZ4WNUPWCjh1GQRjByOwhhnI7NTXrYo/cn/LVtjZbhtn7TvrFVJYRw3D+b5PaGtJDJaSDXOJIHGdRggGhTtHkc8rhtSIIm07KDaSDRprUizvAoXQmI8VpPIT28Jsl10AxipYtztPkw8oFuttDgUbRSxmcooh2kvmbcb6LGk0n+EmcnQLBcSHONNRUsVM6HtbtXUMjK6sMqykMpHiCMgj2GoUhflt9Ij9ynxJaApd5WOc1tnayot9fzTRKioltGegskUKq482jwkn0QeOfppBr18HFZWMCLnvT9lUljDx0KYHc50OD96n2jT7wQfXQiPcl2WxnGmmnYKFLE/Iz7wKL3b0BOs1ts+4UeItpruNyPZ51GDjxHqo9jHmi1SR8f32msD1Gu93Ut5JI5ZYY5ZYSWgd0VntyylGMDEcUTMrFWZCCwOCcYAwcItptarbt6GSlJJpPR79/XqOMTnsPb3HxH9R3/AN4yMDkDyo+8Bi3euEDcJu7mxthjvXzlZ5V9higfI8M1kjxXmKc5ZazZmM15fDJUKWPfoQB6+L+mahT7YTEHFCj1HdEVSG78nHLdtTZrA2G0bux4c4SCUiDU5Ja1fjtJCT/qQP3+JpuTYnfanlMttSdH5xbbPuJEQJ0ojlgLqGcguiStHx9Y8TRiNT3ItY2MrnGMcmg9g/hVIe1agPeaATxPp7e2gBDQHXHku97Ftt5rRWOBf2t/ZD/dwJeKD3DPmR18cDtIowXZomTk/YPD1n1/wrzMjLVKfHTP8qArh8r9vght9iWoOHe7ubwqRqEtbdrYnvAy96pXJHEpyOyqjytqyshzWRkY5QDj+PeKoGqQYcjtxUKOgmoQ+NJVA3bQn1Hs/mahBGsug9gqFM8MlUhnD0KJohofaaA9wigJe5re9RtNu7AnH/T2jZxtrj5u6lFnISfVHcMcd+Md9Uh+hOvM9AoAoCpTyum2g22NmwjGYNntcNprm8umjGT34Fh2d2fXWSPM4SZ6yKYieygERGWJ9Z+7OBUKepXoD0stAM+07jrfZ/M0CMMb6D2D+FYkMkctUosilqkPidp9eD/f3UIK4UoUUefvH84h4XiImjYdqyRESRtr/wDl1B18Kt7E3P0p7vbYWeGCZSCs8UUykagrKiupB7xhhisGZocKhTzI2hoClbynG3xLvLdKCD5pZ7OtDg5w3RPdkHwOLsHHrz31mjzOTWaqU8O3f4VAJFOMUKJJ5qEA3FAa/tG961YmSMtvcaVTEypJUAqjlqgWWzaj1gj+f9aoFwegMkcmapC/bmSbx+cbtbvSEkldn2tuxJyeK0QWrZJ1zxQnOe+sGZom01CmK5PVb2GhHsUD877egXO8G8EwOQdoTwKfVZBLHv7s2xA9WKzWxiyGmaqDDcS4Ht0/r+QqAQTT0AjM1QpgvLvAoBDDEMZI7dfzx/KoUwLJg+2oRihJayILIXoBYsuMHwwf6/lVA5yPQGW1agLo/JS70CbduKLiy1je7Qt2GcleknN4gPtjulIHgRUZkjsWsSiXaUwVHJ0CjiPqC6n8hQj2Pzcbw7wG4luLg6G7mnu2BOSDdTPOR68GTGfVWZiNDPVAivJdR6h/H/jNQo23M9Qgl6ahRvuZsmoyoyXMnYM9gAoBNIahT6klCWF0U9ZEsLY7oeP5UA4QXq8K69mR392n8qoM0V8oPb+R/pQhZ15H/lWt4oNu2srlAtxZ3kZ4HYHziCS3cdVWwV8zQnOMhxjOGxGVFh3/ANp2H+v/AOqX9FYmRGfOc5dba22JtuaGf56OwvOg+ak0maB0hOqAaSMp1I9ooCgh7tAAAdFAA7ewDArMwMHn6+P5GgG+a6UknPb7fYO6hRvuJ/71qASyTf3rULYwBqhTPwChD//Z"
+                  alt="Adv. Chirag Mahajan"
+                />
+              </div>
+              <div class="profile-caption">Advocate Chirag Mahajan</div>
+            </div>
+
+            <div class="profile-content reveal">
+              <h3>Adv. Chirag Mahajan</h3>
+              <div class="profile-role">Advocate · Chandigarh</div>
+
+              <p>
+                An advocate enrolled with the Bar Council of Punjab &amp;
+                Haryana, practising at Chandigarh since 2022. The practice
+                includes criminal, family, consumer, corporate, labour and
+                related legal proceedings. He is also presently working as Legal
+                Associate (in-house) at C3iHub, IIT Kanpur.
+              </p>
+
+              <p>
+                The information on this website is published for informational
+                purposes only. Specific suitability of a matter depends on its
+                facts, applicable law and the relevant forum.
+              </p>
+
+              <table class="details-table">
+                <tbody>
+                  <tr>
+                    <th>Full name</th>
+                    <td>Adv. Chirag Mahajan</td>
+                  </tr>
+                  <tr>
+                    <th>Designation</th>
+                    <td>Advocate</td>
+                  </tr>
+                  <tr>
+                    <th>Enrolment No.</th>
+                    <td>PH/3705/2022</td>
+                  </tr>
+                  <tr>
+                    <th>State Bar Council</th>
+                    <td>Bar Council of Punjab &amp; Haryana</td>
+                  </tr>
+                  <tr>
+                    <th>Bar Association</th>
+                    <td>Replace with actual Bar Association</td>
+                  </tr>
+                  <tr>
+                    <th>Qualification</th>
+                    <td>Panjab University, Chandigarh</td>
+                  </tr>
+                  <tr>
+                    <th>Practice since</th>
+                    <td>2022</td>
+                  </tr>
+                  <tr>
+                    <th>Current position</th>
+                    <td>Legal Associate (in-house), C3iHub, IIT Kanpur</td>
+                  </tr>
+                  <tr>
+                    <th>Languages</th>
+                    <td>English, Hindi, Punjabi</td>
+                  </tr>
+                  <tr>
+                    <th>Location</th>
+                    <td>Chandigarh</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Practice areas -->
+      <section class="alt" id="practice">
+        <div class="wrap">
+          <div class="section-heading reveal">
+            <span class="section-label">Areas of Practice</span>
+            <h2>Practice areas</h2>
+            <p>
+              Broad areas in which matters are undertaken. Specific suitability
+              depends on the facts and the forum.
+            </p>
+          </div>
+
+          <div class="practice-grid">
+            <article class="practice-card reveal">
+              <span class="practice-number">01</span>
+              <div class="practice-icon">§</div>
+              <h3>Criminal Law</h3>
+              <p>
+                Complaints, bail applications, trials before Magistrates and
+                Sessions Courts, revisions and criminal appeals.
+              </p>
+            </article>
+
+            <article class="practice-card reveal">
+              <span class="practice-number">02</span>
+              <div class="practice-icon">⚖</div>
+              <h3>Family &amp; Matrimonial</h3>
+              <p>
+                Divorce, judicial separation, maintenance, custody, guardianship
+                and proceedings under the Family Courts Act.
+              </p>
+            </article>
+
+            <article class="practice-card reveal">
+              <span class="practice-number">03</span>
+              <div class="practice-icon">◇</div>
+              <h3>Consumer Law</h3>
+              <p>
+                Consumer complaints and related proceedings before the District
+                Consumer Disputes Redressal Commission.
+              </p>
+            </article>
+
+            <article class="practice-card reveal">
+              <span class="practice-number">04</span>
+              <div class="practice-icon">⌂</div>
+              <h3>Corporate &amp; Business Law</h3>
+              <p>
+                Contracts, business and corporate advisory matters, negotiation,
+                and insolvency and bankruptcy related matters.
+              </p>
+            </article>
+
+            <article class="practice-card reveal">
+              <span class="practice-number">05</span>
+              <div class="practice-icon">▤</div>
+              <h3>Labour &amp; Employment</h3>
+              <p>
+                Employment contracts, workplace and service-related disputes,
+                and labour law compliance matters.
+              </p>
+            </article>
+
+            <article class="practice-card reveal">
+              <span class="practice-number">06</span>
+              <div class="practice-icon">▧</div>
+              <h3>IP &amp; Documentation</h3>
+              <p>
+                Intellectual property matters, agreements, wills, legal notices
+                and other legal documentation.
+              </p>
+            </article>
+          </div>
+
+          <!-- <p style="font-size: 12px; color: var(--muted); margin-top: 20px">
+            No assurance is given as to the merits, outcome or duration of any
+            matter.
+          </p> -->
+        </div>
+      </section>
+
+      <!-- Courts -->
+      <section id="courts">
+        <div class="wrap">
+          <div class="section-heading reveal">
+            <span class="section-label">Jurisdiction</span>
+            <h2>Courts &amp; forums</h2>
+            <p>
+              Forums at which appearances are made, subject to the nature of the
+              proceedings.
+            </p>
+          </div>
+
+          <div class="courts-grid">
+            <article class="court-card reveal">
+              <h3>District &amp; Sessions Court, Chandigarh</h3>
+              <p>
+                Criminal trials, sessions matters, civil appeals and
+                district-level proceedings.
+              </p>
+            </article>
+
+            <article class="court-card reveal">
+              <h3>Punjab &amp; Haryana High Court, Chandigarh</h3>
+              <p>
+                Appeals, writ petitions, revisions and other High Court matters.
+              </p>
+            </article>
+
+            <article class="court-card reveal">
+              <h3>Family Court, Chandigarh</h3>
+              <p>
+                Matrimonial proceedings, maintenance, custody and guardianship.
+              </p>
+            </article>
+
+            <article class="court-card reveal">
+              <h3>Civil Court &amp; JMIC Courts, Chandigarh</h3>
+              <p>
+                Civil suits, cheque cases, summons trials and interim
+                applications.
+              </p>
+            </article>
+
+            <article class="court-card reveal">
+              <h3>Consumer Commission, Chandigarh</h3>
+              <p>
+                Proceedings before the District Consumer Disputes Redressal
+                Commission.
+              </p>
+            </article>
+
+            <article class="court-card reveal">
+              <h3>Other forums</h3>
+              <p>
+                Other tribunal and statutory proceedings, as applicable to the
+                matter.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Chamber -->
+      <section class="alt" id="chamber">
+        <div class="wrap">
+          <div class="section-heading reveal">
+            <span class="section-label">Office Information</span>
+            <h2>Chamber &amp; office</h2>
+            <p>
+              Visitors are requested to contact the office and confirm
+              availability before attending.
+            </p>
+          </div>
+
+          <div class="chamber-grid">
+            <div class="reveal">
+              <h3>Office address</h3>
+
+              <address class="address">
+                3194, Sector 37-D<br />
+                Chandigarh — 160036<br />
+                India
+              </address>
+
+              <ul class="hours">
+                <li><span>Monday – Friday</span><span>From 9:00 AM</span></li>
+                <li><span>Saturday</span><span>Confirm by phone</span></li>
+                <li><span>Sunday</span><span>Confirm by phone</span></li>
+              </ul>
+
+              <div class="hero-actions">
+                <a class="btn btn-primary" href="tel:+919878000263"
+                  >☎ &nbsp; Call Office</a
+                >
+                <a
+                  class="btn btn-wa"
+                  href="https://wa.me/919878000263"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >WhatsApp</a
+                >
+              </div>
+
+              <p class="chamber-note">
+                Contacting the office does not create an advocate–client
+                relationship.
+              </p>
+            </div>
+
+            <div class="map-card reveal">
+              <div class="map-placeholder">
+                <iframe
+                  title="Map showing chamber location, Sector 37-D, Chandigarh"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3429.3026133976937!2d76.74136887558066!3d30.73800017458162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fed037f0c4d79%3A0xb46ec2c4c8dec758!2sAdvocate%20Chirag%20Mahajan!5e0!3m2!1sen!2sin!4v1793853779506!5m2!1sen!2sin"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                ></iframe>
+              </div>
+              <div class="map-footer">
+                <span>Sector 37-D, Chandigarh</span>
+                <a
+                  href="https://maps.google.com/?q=Advocate+Chirag+Mahajan+3194+Sector+37D+Chandigarh+160036"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Open Google Maps ↗</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="contact-section" id="contact">
+        <div class="wrap">
+          <div class="section-heading reveal">
+            <span class="section-label">Correspondence</span>
+            <h2>Contact the office</h2>
+            <p>For general office enquiries, use the contact details below.</p>
+          </div>
+
+          <div class="contact-grid">
+            <div class="reveal">
+              <div class="contact-item">
+                <span class="contact-icon">☎</span>
+                <div>
+                  <small>Telephone</small>
+                  <a href="tel:+919878000263">+91 98780 00263</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <span class="contact-icon">✉</span>
+                <div>
+                  <small>Email</small>
+                  <a href="mailto:contact@example.com">contact@example.com</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <span class="contact-icon">⌖</span>
+                <div>
+                  <small>Chamber</small>
+                  <span>3194, Sector 37-D, Chandigarh — 160036</span>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <span class="contact-icon">◷</span>
+                <div>
+                  <small>Office hours</small>
+                  <span>Mon–Fri from 9:00 AM · Sat/Sun confirm by phone</span>
+                </div>
+              </div>
+
+              <p class="contact-note">
+                Correspondence is attended during office hours. Urgent
+                court-related matters should be communicated by telephone.
+              </p>
+            </div>
+
+            <!-- Configure a real form endpoint before accepting submissions -->
+            <form
+              class="enquiry-form reveal"
+              action="https://formspree.io/f/REPLACE_ID"
+              method="POST"
+            >
+              <h3>Send an enquiry</h3>
+              <p class="form-subtitle">
+                Kindly share brief details for office correspondence.
+              </p>
+
+              <div class="form-row">
+                <div>
+                  <label for="fname">Full name</label>
+                  <input
+                    id="fname"
+                    name="name"
+                    type="text"
+                    autocomplete="name"
+                    placeholder="Your name"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="fphone">Phone</label>
+                  <input
+                    id="fphone"
+                    name="phone"
+                    type="tel"
+                    autocomplete="tel"
+                    placeholder="+91"
+                    required
+                  />
+                </div>
+              </div>
+
+              <label for="femail">Email</label>
+              <input
+                id="femail"
+                name="email"
+                type="email"
+                autocomplete="email"
+                placeholder="you@example.com"
+              />
+
+              <label for="farea">Nature of enquiry</label>
+              <select id="farea" name="area">
+                <option value="">Select</option>
+                <option>Civil matter</option>
+                <option>Criminal matter</option>
+                <option>Family / matrimonial</option>
+                <option>Property / documentation</option>
+                <option>Commercial / contract</option>
+                <option>Other</option>
+              </select>
+
+              <label for="fmsg">Brief details</label>
+              <textarea
+                id="fmsg"
+                name="message"
+                placeholder="A short factual summary. Please do not share confidential documents at this stage."
+                required
+              ></textarea>
+
+              <button class="submit-btn" type="submit">Submit enquiry</button>
+
+              <p class="form-note">
+                Sending this form does not create an advocate–client
+                relationship and is not a request for legal advice. Please do
+                not send confidential documents through this form.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq">
+        <div class="wrap">
+          <div class="section-heading reveal">
+            <span class="section-label">Questions</span>
+            <h2>Frequently asked</h2>
+          </div>
+
+          <div class="faq-list reveal">
+            <details class="faq-item">
+              <summary>How can I contact the office?</summary>
+              <p>
+                By telephone during office hours, by email, or by WhatsApp.
+                Visitors are requested to call and confirm before attending the
+                chamber.
+              </p>
+            </details>
+
+            <details class="faq-item">
+              <summary>Which courts do you appear before?</summary>
+              <p>
+                The forums are listed in the Courts &amp; Forums section above.
+                The nature of each appearance depends on the proceedings and the
+                matter.
+              </p>
+            </details>
+
+            <details class="faq-item">
+              <summary>Do you take matters outside Chandigarh?</summary>
+              <p>
+                Whether a particular matter can be undertaken depends on the
+                forum, location and facts of the matter.
+              </p>
+            </details>
+
+            <details class="faq-item">
+              <summary>Can I get legal advice through this website?</summary>
+              <p>
+                No. This website is published for information only. No legal
+                advice is provided through the website or enquiry form.
+              </p>
+            </details>
+
+            <details class="faq-item">
+              <summary>
+                Why does this website not show client reviews or case results?
+              </summary>
+              <p>
+                The website is limited to factual professional particulars and
+                does not publish testimonials, endorsements or promotional
+                claims.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Compact disclaimer immediately above footer -->
+    <div class="disclaimer-toast" id="disclaimerToast">
+      <div class="disclaimer-copy">
+        <strong>Disclaimer · Bar Council of India Rule 36</strong>
+        This website is for informational purposes only. It is not an
+        advertisement, solicitation or legal advice. Access is voluntary.
+      </div>
+
+      <div class="disclaimer-actions">
+        <button class="agree-btn" id="agreeDisclaimer" type="button">
+          I Understand
+        </button>
+        <button
+          class="close-disclaimer"
+          id="closeDisclaimer"
+          type="button"
+          aria-label="Close disclaimer"
+        >
+          ×
+        </button>
+      </div>
+    </div>
+
+    <div class="disclaimer-details" id="disclaimerDetails">
+      <h3>Disclaimer &amp; Information Notice</h3>
+
+      <p>
+        <strong>1. Information only.</strong> This website is published solely
+        for the purpose of providing factual information about the advocate and
+        the practice. It is not an advertisement and does not constitute
+        advertisement or solicitation of work.
+      </p>
+
+      <p>
+        <strong>2. No solicitation.</strong> Nothing on this website is intended
+        to invite, induce or solicit any person to engage the advocate.
+      </p>
+
+      <p>
+        <strong>3. Accessed on own accord.</strong> Any person accessing this
+        website does so of their own accord and volition to obtain information
+        about the advocate.
+      </p>
+
+      <p>
+        <strong>4. No advocate–client relationship.</strong> Accessing this
+        website, submitting an enquiry or contacting the office does not create
+        an advocate–client relationship or constitute engagement of the advocate
+        in any matter.
+      </p>
+
+      <p>
+        <strong>5. Not legal advice.</strong> The contents of this website are
+        not legal advice and must not be relied upon as such. No assurance is
+        given as to the merits, outcome or duration of any matter.
+      </p>
+
+      <p>
+        <strong>6. Limited particulars.</strong> The website is intended to
+        publish only factual professional particulars, including name,
+        designation, enrolment details, qualifications, areas of practice,
+        courts and contact details. It does not publish client testimonials,
+        endorsements, case results or promotional claims.
+      </p>
+
+      <p>
+        <strong>7. Enrolment.</strong> The advocate's enrolment and right to
+        practise are subject to the applicable rules of the Bar Council of India
+        and the relevant State Bar Council.
+      </p>
+
+      <p>
+        <strong>8. Accuracy.</strong> Reasonable care is taken to keep
+        information accurate and current. Office details and hours may change
+        and should be confirmed before relying on them.
+      </p>
+
+      <p>
+        Final responsibility for compliance with applicable professional rules
+        rests with the owner of this website.
+      </p>
+    </div>
+
+    <footer>
+      <div class="wrap">
+        <div class="footer-grid">
+          <div>
+            <div class="footer-brand">Adv. Chirag Mahajan</div>
+            <p>
+              Advocate · Chandigarh<br />
+              Enrolment No. PH/3705/2022<br />
+              Bar Council of Punjab &amp; Haryana
+            </p>
+          </div>
+
+          <div>
+            <h4>Explore</h4>
+            <a href="#profile">Profile</a><br />
+            <a href="#practice">Practice areas</a><br />
+            <a href="#courts">Courts &amp; forums</a><br />
+            <a href="#chamber">Chamber</a><br />
+            <a href="#faq">Frequently asked</a>
+          </div>
+
+          <div>
+            <h4>Contact</h4>
+            <a href="tel:+919878000263">+91 98780 00263</a><br />
+            <a href="mailto:contact@example.com">contact@example.com</a><br />
+            <a
+              href="https://wa.me/919878000263"
+              target="_blank"
+              rel="noopener noreferrer"
+              >WhatsApp</a
+            >
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <span
+            >© <span id="year"></span> Adv. Chirag Mahajan. All rights
+            reserved.</span
+          >
+          <span
+            >Information only · Not an advertisement or solicitation · Rule
+            36</span
+          >
+        </div>
+      </div>
+    </footer>
+
+    <!-- Mobile quick contact -->
+    <div class="mobile-actions">
+      <a class="mobile-call" href="tel:+919878000263">☎ &nbsp; Call Office</a>
+      <a
+        class="mobile-wa"
+        href="https://wa.me/919878000263"
+        target="_blank"
+        rel="noopener noreferrer"
+        >WhatsApp</a
+      >
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Current year
+        const year = document.getElementById("year");
+        if (year) year.textContent = new Date().getFullYear();
+
+        // Mobile navigation
+        const menuToggle = document.getElementById("menuToggle");
+        const navLinks = document.getElementById("navLinks");
+
+        if (menuToggle && navLinks) {
+          menuToggle.addEventListener("click", function () {
+            const isOpen = navLinks.classList.toggle("open");
+            menuToggle.setAttribute("aria-expanded", String(isOpen));
+          });
+
+          navLinks.querySelectorAll("a").forEach(function (link) {
+            link.addEventListener("click", function () {
+              navLinks.classList.remove("open");
+              menuToggle.setAttribute("aria-expanded", "false");
+            });
+          });
+
+          document.addEventListener("click", function (event) {
+            if (
+              !navLinks.contains(event.target) &&
+              !menuToggle.contains(event.target)
+            ) {
+              navLinks.classList.remove("open");
+              menuToggle.setAttribute("aria-expanded", "false");
+            }
+          });
+
+          // Close menu if screen grows past the mobile breakpoint
+          window.addEventListener("resize", function () {
+            if (window.innerWidth > 950) {
+              navLinks.classList.remove("open");
+              menuToggle.setAttribute("aria-expanded", "false");
+            }
+          });
+        }
+
+        // Disclaimer acknowledgement and close
+        const toast = document.getElementById("disclaimerToast");
+        const details = document.getElementById("disclaimerDetails");
+        const agree = document.getElementById("agreeDisclaimer");
+        const close = document.getElementById("closeDisclaimer");
+
+        function dismissDisclaimer() {
+          if (toast) toast.style.display = "none";
+          if (details) details.classList.remove("open");
+        }
+
+        if (agree) {
+          agree.addEventListener("click", dismissDisclaimer);
+        }
+
+        if (close) {
+          close.addEventListener("click", function () {
+            if (details) details.classList.toggle("open");
+            if (toast) toast.style.display = "none";
+          });
+        }
+
+        // Reveal sections as they enter the viewport
+        const revealItems = document.querySelectorAll(".reveal");
+
+        if ("IntersectionObserver" in window) {
+          const observer = new IntersectionObserver(
+            function (entries, obs) {
+              entries.forEach(function (entry) {
+                if (entry.isIntersecting) {
+                  entry.target.classList.add("visible");
+                  obs.unobserve(entry.target);
+                }
+              });
+            },
+            { threshold: 0.08 },
+          );
+
+          revealItems.forEach(function (item) {
+            observer.observe(item);
+          });
+        } else {
+          revealItems.forEach(function (item) {
+            item.classList.add("visible");
+          });
+        }
+
+        // Form submit feedback. Actual delivery requires a configured endpoint.
+        const form = document.querySelector(".enquiry-form");
+
+        if (form) {
+          form.addEventListener("submit", function () {
+            const button = form.querySelector(".submit-btn");
+            if (button) {
+              button.textContent = "Sending…";
+              button.disabled = true;
+            }
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
