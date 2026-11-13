@@ -5,20 +5,20 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>BriefCraft — Professional Websites for Advocates & Law Firms</title>
+  <title>ApnaChamber — Professional Websites for Advocates & Law Firms</title>
 
   <meta name="description"
-    content="BriefCraft creates clean, professional websites for advocates and law firms. Get a custom-designed website, professionally written content, domain and business email. Free sample before payment." />
+    content="ApnaChamber creates clean, professional websites for advocates and law firms. Get a custom-designed website, professionally written content, domain and business email. Free sample before payment." />
 
   <meta name="robots" content="index, follow" />
-  <meta name="author" content="BriefCraft" />
+  <meta name="author" content="ApnaChamber" />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="BriefCraft — Websites for Advocates & Law Firms" />
+  <meta property="og:title" content="ApnaChamber — Websites for Advocates & Law Firms" />
   <meta property="og:description"
     content="A professional digital presence for your legal practice. Custom websites, content, domain and business email. See your free sample before you pay." />
   <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="BriefCraft" />
+  <meta property="og:site_name" content="ApnaChamber" />
   <!-- <meta property="og:image" content="https://YOUR-DOMAIN/og-image.jpg" /> -->
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
@@ -27,6 +27,7 @@
   <meta name="theme-color" content="#0a1622" />
 
   <!-- Canonical: replace with your actual homepage URL -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="canonical" href="https://YOUR-DOMAIN/" />
   <link rel="icon" type="image/svg+xml" href="https://api.iconify.design/ph/pen-nib-fill.svg?color=%23c9a84c" />
 </head>
@@ -213,6 +214,22 @@
     flex: 0 0 auto;
   }
 
+  .mk {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 11px;
+    background: #252d3a;
+    color: #d2ad6c;
+    font-size: 23px;
+  }
+
+  .mk i {
+    display: block;
+  }
+
   .brand .mk {
     width: 36px;
     height: 36px;
@@ -347,22 +364,38 @@
   }
 
   @media (max-width: 920px) {
+
+    nav.site .wrap,
+    nav.site.solid .wrap {
+      height: 66px;
+      gap: 12px;
+    }
+
     .navlinks {
       position: fixed;
       top: 66px;
       left: 0;
       right: 0;
+      width: 100%;
+      max-height: calc(100vh - 66px);
+      overflow-y: auto;
+
+      display: flex;
       flex-direction: column;
       align-items: stretch;
       gap: 0;
-      padding: 10px 24px 26px;
+
+      padding: 12px 24px 24px;
       background: rgba(10, 22, 34, 0.98);
       backdrop-filter: blur(18px);
       -webkit-backdrop-filter: blur(18px);
       border-bottom: 1px solid rgba(230, 205, 115, 0.2);
+
       opacity: 0;
       visibility: hidden;
+      pointer-events: none;
       transform: translateY(-10px);
+
       transition:
         opacity 0.28s var(--ease),
         transform 0.28s var(--ease),
@@ -372,10 +405,12 @@
     .navlinks.open {
       opacity: 1;
       visibility: visible;
+      pointer-events: auto;
       transform: translateY(0);
     }
 
     .navlinks a:not(.navcta) {
+      display: block;
       padding: 14px 0;
       border-bottom: 1px solid rgba(255, 255, 255, 0.08);
       font-size: 15px;
@@ -387,18 +422,52 @@
     }
 
     .navcta {
-      margin-top: 18px;
+      display: block;
+      margin-top: 16px;
       text-align: center;
       padding: 13px 20px;
     }
 
     .burger {
       display: block;
+      flex: 0 0 auto;
     }
+  }
+
+  @media (max-width: 480px) {
 
     nav.site .wrap,
     nav.site.solid .wrap {
-      height: 66px;
+      height: 62px;
+    }
+
+    .navlinks {
+      top: 62px;
+      max-height: calc(100vh - 62px);
+      padding: 10px 20px 22px;
+    }
+
+    .brand {
+      gap: 9px;
+    }
+
+    .brand .mk {
+      width: 32px;
+      height: 32px;
+      font-size: 13px;
+    }
+
+    .brand b {
+      font-size: 15px;
+    }
+
+    .brand small {
+      font-size: 9px;
+      letter-spacing: 0.1em;
+    }
+
+    .burger {
+      padding: 8px;
     }
   }
 
@@ -1382,6 +1451,7 @@
     cursor: wait;
     transform: none;
   }
+
 
   .formnote {
     font-size: 11.5px;
@@ -2745,9 +2815,11 @@
   <nav class="site" id="nav">
     <div class="wrap">
       <a class="brand" href="#top">
-        <span class="mk">RK</span>
+        <span class="mk" aria-hidden="true">
+          <i class="bi bi-bank"></i>
+        </span>
         <span>
-          <b>BriefCraft</b>
+          <b>ApnaChamber</b>
           <small>DESIGN · DEVELOPMENT · DIGITAL PRESENCE</small>
         </span>
       </a>
@@ -3306,7 +3378,7 @@
                 An expansive digital presence for established law firms and multi-advocate chambers, with dedicated
                 sections for associates, practice areas, professional credentials and client engagement.
               </p>
-              <a href="/template/tier3/type3.html" target="_blank">Open the live sample
+              <a href="/template/tier2/tier2web/index.html" target="_blank">Open the live sample
                 <svg viewBox="0 0 24 24" aria-hidden="true">
                   <path d="M5 12h14M13 6l6 6-6 6" />
                 </svg>
@@ -4055,10 +4127,11 @@
       <div class="cols">
         <div>
           <div class="fbrand">
-            <span class="mk">RK</span>
-            <span>
-              <b>BriefCraft</b>
-              <small>DESIGN · DEVELOPMENT · DIGITAL PRESENCE</small>
+            <span class="mk" aria-hidden="true">
+              <i class="bi bi-bank"></i>
+            </span>
+            <b>ApnaChamber</b>
+            <small>DESIGN · DEVELOPMENT · DIGITAL PRESENCE</small>
             </span>
           </div>
           <p style="margin: 0; line-height: 1.75">
