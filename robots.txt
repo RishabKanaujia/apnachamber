@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Demo/sample templates: keep out of Google (see audit Step 6)
+Disallow: /template/
+
+Sitemap: https://www.apnachamber.online/sitemap.xml
